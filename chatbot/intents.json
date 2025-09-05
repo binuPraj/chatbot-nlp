@@ -1,0 +1,145 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Hi there",
+                "Good morning",
+                "Good afternoon",
+                "Greetings",
+                "What's up?",
+                "How are you?"
+            ],
+            "responses": [
+                "Hello! Welcome to UFO Nepal! How can I assist you today?",
+                "Hi there! Explore the latest fashion at UFO Nepal!",
+                "Hey! How can I help you with your clothing needs?",
+                "Hello! Ready to shop trendy clothes at UFO Nepal?"
+            ]
+        },
+        {
+            "tag": "store_hours",
+            "patterns": [
+                "When are you open?",
+                "Store hours",
+                "What time do you open and close?",
+                "Opening hours"
+            ],
+            "responses": [
+                "We are open every day from 10 AM to 8 PM!",
+                "UFO Nepal operates between 10 in the morning till 8 in the evening."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where are you located?",
+                "UFO Nepal location",
+                "Where can I find the store?",
+                "Store address"
+            ],
+            "responses": [
+                "You can find us at Durbarmarg, Kathmandu.",
+                "Our main outlet is located at UFO Building, Durbarmarg."
+            ]
+        },
+        {
+            "tag": "shop_online",
+            "patterns": [
+                "Can I shop online?",
+                "Do you have an online store?",
+                "Buy clothes online",
+                "Online shopping"
+            ],
+            "responses": [
+                "Yes, you can shop online at <https://ufonepal.com>.",
+                "Absolutely! Visit our online store: <https://ufonepal.com>"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "I'm leaving",
+                "Catch you later"
+            ],
+            "responses": [
+                "Goodbye! Have a fashionable day!",
+                "See you again soon at UFO Nepal!",
+                "Take care! Come back soon!"
+            ]
+        },
+        {
+            "tag": "specialties",
+            "patterns": [
+                "What makes UFO Nepal special?",
+                "Why choose UFO Nepal?",
+                "What is your specialty?"
+            ],
+            "responses": [
+                "We specialize in trendy and high-quality fashion made in Nepal.",
+                "Our collections blend international fashion trends with local craftsmanship.",
+                "UFO Nepal offers urban styles that are stylish, comfortable, and proudly Nepali-made."
+            ]
+        },
+        {
+            "tag": "product_categories",
+            "patterns": [
+                "What types of clothes do you sell?",
+                "Do you have men's wear?",
+                "Women's collection?",
+                "Kids section?"
+            ],
+            "responses": [
+                "We offer clothing for men, women, and kids — from casuals to formals.",
+                "Yes! We have fashion collections for all genders and ages.",
+                "Our store includes trendy tops, jeans, dresses, jackets, shirts, and much more."
+            ]
+        },
+        {
+            "tag": "sales",
+            "patterns": [
+                "Are there any discounts?",
+                "Current offers?",
+                "Is there a sale?",
+                "Any deals today?"
+            ],
+            "responses": [
+                "We have seasonal sales and promotions. Check our website or visit the store for the latest offers!",
+                "Yes, don't miss our exclusive deals on select items!",
+                "Follow us on social media for real-time updates on discounts and offers."
+            ]
+        },
+        {
+            "tag": "return_policy",
+            "patterns": [
+                "What is your return policy?",
+                "Can I return items?",
+                "How do I return a product?"
+            ],
+            "responses": [
+                "You can return items within 7 days with the original bill and tags attached.",
+                "Yes, returns are accepted within a week from purchase under standard conditions.",
+                "Please make sure the product is unused and in original condition for returns."
+            ]
+        },
+        {
+            "tag": "contact_info",
+            "patterns": [
+                "How can I contact UFO Nepal?",
+                "Customer support?",
+                "Phone number?",
+                "Email?"
+            ],
+            "responses": [
+                "You can call us at +977-1-4442222 or email us at support@ufonepal.com.",
+                "For assistance, feel free to reach out at our contact page: <https://ufonepal.com/contact>"
+            ]
+        }
+    ]
+}
